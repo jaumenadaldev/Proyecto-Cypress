@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
-    "husky": "^8.0.3"
+    "cypress": "^13.1.0",
+    "husky": "^8.0.3",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "node.js": "^0.0.1-security"
   }
 }

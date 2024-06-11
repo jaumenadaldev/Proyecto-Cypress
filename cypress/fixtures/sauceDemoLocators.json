@@ -1,0 +1,10 @@
+{
+    "loginPageLocators": {
+        "username_input": "[data-test='username']",
+        "password_input": "[data-test='password']",
+        "login_button": "[data-test='login-button']"
+    },
+    "homePageLocators": {
+        "burger_button": "#react-burger-menu-btn"
+    }
+}
